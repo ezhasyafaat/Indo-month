@@ -56,12 +56,12 @@ license. Please see the [license file](license.md) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/ezha/indomonth.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/ezha/indomonth.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/ezha/indomonth/master.svg?style=flat-square
+[ico-travis]: https://travis-ci.org/ezhasyafaat/Indo-month.svg?branch=main
 [ico-styleci]: https://styleci.io/repos/331256613/shield
 
 [link-packagist]: https://packagist.org/packages/ezha/indomonth
 [link-downloads]: https://packagist.org/packages/ezha/indomonth
-[link-travis]: https://travis-ci.org/ezha/indomonth
+[link-travis]: https://travis-ci.org/github/ezhasyafaat/Indo-month
 [link-styleci]: https://styleci.io/repos/331256613
 [link-author]: https://github.com/ezha
 [link-contributors]: ../../contributors
