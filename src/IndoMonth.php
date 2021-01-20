@@ -12,6 +12,6 @@ class IndoMonth
 
         $split = explode('-', $value);
 
-        return $split[2] . ' ' . $month[(int) $split[1]] . ' ' . $split[0];
+        return $split[2].' '.$month[(int) $split[1]].' '.$split[0];
     }
 }
