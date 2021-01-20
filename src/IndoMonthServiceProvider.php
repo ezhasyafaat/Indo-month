@@ -35,7 +35,7 @@ class IndoMonthServiceProvider extends ServiceProvider
 
         // Register the service the package provides.
         $this->app->singleton('indomonth', function ($app) {
-            return new IndoMonth;
+            return new IndoMonth();
         });
     }
 
