@@ -17,6 +17,16 @@ $ composer require ezha/indomonth
 
 ## Usage
 
+```php
+use Ezha\IndoMonth\Facades\IndoMonth;
+
+Route::get('monthindo', function() {
+    $date = Carbon::now()->format('Y-m-d');
+
+    return IndoMonth::indoMonth($date);
+});
+```
+
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
@@ -37,7 +47,7 @@ If you discover any security related issues, please email author email instead o
 
 ## Credits
 
-- [author name][link-author]
+- [Ezha Syafaat][link-author]
 - [All Contributors][link-contributors]
 
 ## License
@@ -47,11 +57,11 @@ license. Please see the [license file](license.md) for more information.
 [ico-version]: https://img.shields.io/packagist/v/ezha/indomonth.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/ezha/indomonth.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/ezha/indomonth/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/12345678/shield
+[ico-styleci]: https://styleci.io/repos/331256613/shield
 
 [link-packagist]: https://packagist.org/packages/ezha/indomonth
 [link-downloads]: https://packagist.org/packages/ezha/indomonth
 [link-travis]: https://travis-ci.org/ezha/indomonth
-[link-styleci]: https://styleci.io/repos/12345678
+[link-styleci]: https://styleci.io/repos/331256613
 [link-author]: https://github.com/ezha
 [link-contributors]: ../../contributors
