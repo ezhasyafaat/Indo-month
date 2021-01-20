@@ -1,0 +1,41 @@
+{
+    "name": "ezha/indomonth",
+    "description": ":package_description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "author name",
+            "email": "author email",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/ezha/indomonth",
+    "keywords": ["Laravel", "IndoMonth"],
+    "require": {
+        "illuminate/support": "~7|~8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~5|~6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ezha\\IndoMonth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ezha\\IndoMonth\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ezha\\IndoMonth\\IndoMonthServiceProvider"
+            ],
+            "aliases": {
+                "IndoMonth": "Ezha\\IndoMonth\\Facades\\IndoMonth"
+            }
+        }
+    }
+}
